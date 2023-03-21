@@ -1,0 +1,149 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: "MetropolisNF", sans-serif;
+}
+
+/* Bread */
+.bread {
+  padding-top: 100px;
+}
+
+/* Detail-Product */
+.detail-product {
+  padding-top: 70px;
+}
+.detail-product .adds img {
+  width: 100%;
+}
+
+.detail-product .details h4 {
+  font-size: 30px;
+  font-weight: 500;
+}
+.detail-product .details p {
+  color: gray;
+}
+.detail-product .details .price {
+  color: gray;
+}
+.detail-product .details .money {
+  color: rgb(190, 0, 0);
+  font-weight: bold;
+  font-size: 40px;
+}
+/* .detail-product .rating {
+    display: flex;
+    font-size: 10px;
+  }
+  .detail-product .rating p {
+    margin-top: 2px;
+    padding-left: 10px;
+  } */
+
+.product-review {
+  margin: 0px 120px;
+  margin-top: 30px;
+}
+
+.review {
+  display: flex;
+  gap: 60px;
+}
+
+.product-review h3.title {
+  font-size: 28px;
+  line-height: 28px;
+}
+
+.review-rate div {
+  display: flex;
+  align-items: baseline;
+}
+
+.review-rate div h3,
+.review-rate div p {
+  margin: 0;
+}
+
+.review-rate div h3 {
+  font-size: 60px;
+  line-height: 60px;
+}
+
+.review-rate div p {
+  font-size: 20px;
+  line-height: 20px;
+  color: #9b9b9b;
+}
+
+.review-stars {
+  display: flex;
+  gap: 2.71px;
+  margin-top: 15px;
+}
+
+.review-stars img {
+  width: 22.29px;
+  height: 20.57px;
+}
+
+.rate-detail {
+  display: flex;
+}
+
+.rate-detail img {
+  width: 16.71px;
+  height: 15.43px;
+}
+
+.rate-detail div.rate-stars,
+.rate-qty-sold {
+  display: flex;
+  flex-direction: column;
+  gap: 8.57px;
+}
+
+.rate-detail div.rate-stars div {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  color: rgba(155, 155, 155, 1);
+}
+
+/* .rate-qty-sold {
+    display: flex;
+    flex-direction: column;
+  } */
+
+.rate-qty-sold span {
+  margin: 0;
+  color: rgba(155, 155, 155, 1);
+}
+
+.rate-length {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 8.57px;
+  margin: 0px 25px;
+}
+
+.rate-length span.rate5 {
+  margin-top: 9px;
+  display: inline-block;
+  width: 120px;
+  height: 6px;
+  background: rgba(219, 48, 34, 1);
+  border-radius: 3px;
+}
+
+.detail-product .color {
+  padding-top: 30px;
+}
+
+@media only screen and (max-width: 992px) {
+  .detail-product .cols-two {
+    margin-left: 0;
+  }
+}
