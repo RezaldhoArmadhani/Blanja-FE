@@ -37,7 +37,7 @@ export const createProduct = (data, saveImage) => async (dispatch) => {
     axios
       .post(process.env.REACT_APP_BACKEND + "/product", formData, {
         headers: {
-          "Content-Type": "multipart/form-data",
+          Authorization: `Bearer ${localStorage.getItem("token")}`,
         },
       })
       .then((res) => {
@@ -48,13 +48,16 @@ export const createProduct = (data, saveImage) => async (dispatch) => {
           icon: "success",
         });
         window.location.reload();
+        dispatch({ type: "CREATE_PRODUCT", payload: "success" });
+      })
+      .catch((err) => {
+        swal.fire({
+          text: "Permission Denied",
+          icon: "error",
+        });
       });
-    dispatch({ type: "CREATE_PRODUCT", payload: "success" });
-  } catch (err) {
-    swal.fire({
-      text: err.response.data.message,
-      icon: "warning",
-    });
+  } catch (error) {
+    console.log();
   }
 };
 
@@ -72,12 +75,12 @@ export const updateProduct = (data, photo) => async (dispatch) => {
     formData.append("photo", photo);
     formData.append("description", data.description);
     formData.append("id_category", "1");
-    formData.append("id_seller", "ec8ef2e7-c138-46a3-a0eb-f1105c2f132c");
 
     const res = await axios
       .put(`${process.env.REACT_APP_BACKEND}/product/${data.id}`, formData, {
         headers: {
           "Content-Type": "multipart/form-data",
+          Authorization: `Bearer ${localStorage.getItem("token")}`,
         },
       })
       .then((res) => {
@@ -95,7 +98,7 @@ export const updateProduct = (data, photo) => async (dispatch) => {
       })
       .catch((err) => {
         swal.fire({
-          text: "error",
+          text: "Permission Denied",
           icon: "error",
         });
       });
@@ -108,7 +111,11 @@ export const updateProduct = (data, photo) => async (dispatch) => {
 export const deleteProducts = (id) => async (dispatch) => {
   try {
     axios
-      .delete(`${process.env.REACT_APP_BACKEND}/product/${id}`)
+      .delete(`${process.env.REACT_APP_BACKEND}/product/${id}`, {
+        headers: {
+          Authorization: `Bearer ${localStorage.getItem("token")}`,
+        },
+      })
       .then((res) => {
         console.log(res);
         swal.fire({
@@ -121,7 +128,7 @@ export const deleteProducts = (id) => async (dispatch) => {
       })
       .catch((err) => {
         swal.fire({
-          text: "error",
+          text: "Permission Denied",
           icon: "error",
         });
       });

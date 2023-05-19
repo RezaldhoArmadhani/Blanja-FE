@@ -37,7 +37,7 @@ const MyOrder = () => {
               alt="profile-image"
             />
             <div className="detail">
-              <span className="name">Ethan Hunt</span>
+              <span className="name">Franky</span>
               <a className="edit">
                 <svg
                   width={16}
@@ -99,7 +99,7 @@ const MyOrder = () => {
               <ul className="dropdown-menu" aria-labelledby="navbarDropdown">
                 <li>
                   <a className="dropdown-item" href="./store.html">
-                    Store profle
+                    Store profile
                   </a>
                 </li>
               </ul>

@@ -26,7 +26,7 @@ const CreateProduct = () => {
     photo: "",
     description: "",
     id_category: "1",
-    id_seller: "1f3490d6-e4fe-479b-a303-bd32ee193b98",
+    id_seller: "",
   });
 
   const handleChange = (e) => {

@@ -8,7 +8,7 @@ const Product = () => {
   const [products, setProducts] = useState([]);
   useEffect(() => {
     axios
-      .get(process.env.REACT_APP_API_BACKEND + "products")
+      .get(process.env.REACT_APP_BACKEND + "products")
       .then((res) => {
         console.log(res);
         setProducts(res.data.data);
@@ -16,7 +16,7 @@ const Product = () => {
       .catch((err) => {
         console.log(err);
       });
-    console.log(process.env.REACT_APP_API_BACKEND);
+    console.log(process.env.REACT_APP_BACKEND);
   }, []);
 
   return (

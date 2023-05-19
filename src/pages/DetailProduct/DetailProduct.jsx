@@ -1,5 +1,4 @@
 import React from "react";
-import Navbar from "../../components/Navbar/Navbar";
 import ImageGrid from "./ImageGrid/ImageGrid";
 import Color from "./PickDetails/Color";
 import Quantity from "./PickDetails/Quantity";
@@ -10,6 +9,7 @@ import { useParams } from "react-router-dom";
 import { useState } from "react";
 import { useEffect } from "react";
 import axios from "axios";
+import NavbarLogin from "../../components/NavbarLogin/NavbarLogin";
 
 const DetailProduct = () => {
   const { id } = useParams();
@@ -27,7 +27,7 @@ const DetailProduct = () => {
   console.log(id);
   return (
     <div>
-      <Navbar />
+      <NavbarLogin />
       <section className="detail-product container mt-5">
         <div className="adds">
           <div className="row">

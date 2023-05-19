@@ -30,10 +30,7 @@ const ProductPopuler = () => {
           {products.map((item) => (
             <div class="col-lg-3 col-md-6 col-sm-6 col-12 mb-4">
               <div class="card">
-                <img
-                  src={require("../../assets/img/new product/jacket.png")}
-                  alt=""
-                />
+                <img src={item.photo} alt="" />
                 <div class="card-body">
                   <p>{item.name}</p>
                   <p class="price">
