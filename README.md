@@ -56,7 +56,7 @@ This is an example of how to list things you need to use the software and how to
 - Clone This Front End Repo
 
 ```
-git clone https://github.com/dhimasswara/UI-BLANJA
+git clone https://github.com/RezaldhoArmadhani/Blanja-FE
 ```
 
 - Go To Folder Repo
