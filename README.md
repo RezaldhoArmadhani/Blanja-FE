@@ -88,8 +88,8 @@ REACT_APP_ENDPOINT = [BACKEND_URL]
 
 <table>
  <tr>
-    <td><img width="350px" src="./doc/login.png"  border="0" border="0" alt="1" /></td>
-    <td> <img width="350px" src="./doc/register.png" \ border="0"  border="0"  border="0"  alt="2" /></td>
+    <td><img width="350px" src="./doc/Login.png"  border="0" border="0" alt="1" /></td>
+    <td> <img width="350px" src="./doc/Register.png" \ border="0"  border="0"  border="0"  alt="2" /></td>
   </tr>
    <tr>
     <td>Login</td>
@@ -97,42 +97,44 @@ REACT_APP_ENDPOINT = [BACKEND_URL]
   </tr>
 
   <tr>
-    <td><img width="350px" src="./doc/landing.png"  border="0" border="0" alt="3" /> </td>
-     <td><img width="350px" src="./doc/detail.png"  border="0" border="0" alt="4" /></td>
+    <td><img width="350px" src="./doc/Home.png"  border="0" border="0" alt="3" /> </td>
+     <td><img width="350px" src="./doc/Detail Product.png"  border="0" border="0" alt="4" /></td>
   </tr>
    <tr>
     <td>Landing</td>
     <td>Detail</td>
   </tr>
   <tr>
-    <td><img width="350px" src="./doc/profile-seller.png"  border="0" border="0" alt="3" /> </td>
-    <td><img width="350px" src="./doc/profile-customer.png"  border="0" border="0" alt="4" /></td>
+    <td><img width="350px" src="./doc/Profile Seller.png"  border="0" border="0" alt="3" /> </td>
+<!--     <td><img width="350px" src="./doc/profile-customer.png"  border="0" border="0" alt="4" /></td> -->
   </tr>
    <tr>
     <td>Profile Seller</td>
-    <td>Profile Customer</td>
+<!--     <td>Profile Customer</td> -->
+  </tr>
+<!--    <tr> -->
+<!--     <td><img width="350px" src="./doc/mybag.png"  border="0" border="0" alt="3" /> </td> -->
+<!--     <td><img width="350px" src="./doc/checkout.png"  border="0" border="0" alt="4" /></td> -->
+<!--   </tr> -->
+<!--    <tr> -->
+<!--     <td>Mybag</td> -->
+<!--     <td>Checkout</td> -->
+<!--   </tr> -->
+   <tr>
+<!--     <td><img width="350px" src="./doc/address.png"  border="0" border="0" alt="3" /> </td> -->
+    <td><img width="350px" src="./doc/Add Product.png"  border="0" border="0" alt="4" /></td>
   </tr>
    <tr>
-    <td><img width="350px" src="./doc/mybag.png"  border="0" border="0" alt="3" /> </td>
-    <td><img width="350px" src="./doc/checkout.png"  border="0" border="0" alt="4" /></td>
-  </tr>
-   <tr>
-    <td>Mybag</td>
-    <td>Checkout</td>
-  </tr>
-   <tr>
-    <td><img width="350px" src="./doc/address.png"  border="0" border="0" alt="3" /> </td>
-    <td><img width="350px" src="./doc/add-product.png"  border="0" border="0" alt="4" /></td>
-  </tr>
-   <tr>
-    <td>Address</td>
+<!--     <td>Address</td> -->
     <td>Add Product</td>
   </tr>
   <tr>
-    <td><img width="350px" src="./doc/update-product.png"  border="0" border="0" alt="4" /></td>
+    <td><img width="350px" src="./doc/Update Product.png"  border="0" border="0" alt="4" /></td>
+     <td><img width="350px" src="./doc/Delete Product.png"  border="0" border="0" alt="4" /></td>
   </tr>
    <tr>
     <td>Update Product</td>
+    <td>Delete Product</td>
   </tr>
 </table>
 <!-- CONTRIBUTING -->
