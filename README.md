@@ -1,6 +1,6 @@
 <p align="center">
 <div align="center">
-  <img height="150" src="./doc/Andika.jpg" alt="blanja-logo" border="0"/>
+  <img height="150" src="./doc/logo.png" alt="blanja-logo" border="0"/>
 </div>
   <h3 align="center">Blanja App</h3>
   <p align="center">
