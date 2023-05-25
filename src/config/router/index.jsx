@@ -10,7 +10,7 @@ import Checkout from "../../pages/Checkout/Checkout";
 import Test from "../../pages/Test";
 // import CreateProduct from "../../components/Modal/CreateProduct";
 // import UpdateProduct from "../../components/Modal/UpdateProduct";
-import MyProfile from "../../pages/Profile/Customer/index";
+import ProfileCustomer from "../../pages/Profile/Customer/Customer";
 import MyOrder from "../../pages/Profile/Seller/MyOrder";
 
 const Router = () => {
@@ -29,7 +29,7 @@ const Router = () => {
           {/* <Route path="/CreateProduct" element={<CreateProduct />}></Route>
           <Route path="/UpdateProduct" element={<UpdateProduct />}></Route> */}
           <Route path="/MyCatalogue" element={<MyOrder />}></Route>
-          <Route path="/MyProfile" element={<MyProfile />}></Route>
+          <Route path="/MyProfile" element={<ProfileCustomer />}></Route>
         </Routes>
       </BrowserRouter>
     </div>
