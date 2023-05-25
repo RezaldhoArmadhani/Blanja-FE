@@ -10,7 +10,7 @@ import Checkout from "../../pages/Checkout/Checkout";
 import Test from "../../pages/Test";
 // import CreateProduct from "../../components/Modal/CreateProduct";
 // import UpdateProduct from "../../components/Modal/UpdateProduct";
-import MyOrder from "../../pages/Profile/seller/myOrder";
+import MyOrder from "../../pages/Profile/seller/order";
 import MyProfile from "../../pages/Profile/customer/index";
 
 const Router = () => {
