@@ -1,8 +1,17 @@
 import React from "react";
 import style from "./Navbarlogin.module.css";
 import { Link } from "react-router-dom";
+import { useState, useEffect } from "react";
 
 const NavbarLogin = () => {
+  const [role, setRole] = useState();
+  useEffect(() => {
+    setRole(localStorage.getItem("role"));
+  }, []);
+  console.log(role);
+  const clearLogin = () => {
+    localStorage.clear();
+  };
   return (
     <>
       <header>
@@ -85,7 +94,9 @@ const NavbarLogin = () => {
                     />
                   </a>
                   <ul className="dropdown-menu">
-                    <Link to="/MyCatalogue">
+                    <Link
+                      to={role === "customer" ? "/MyProfile" : "/MyCatalogue"}
+                    >
                       <li>
                         <a className="dropdown-item" href={"/#"}>
                           Profil
@@ -94,7 +105,11 @@ const NavbarLogin = () => {
                     </Link>
                     <Link to="/Login">
                       <li>
-                        <a className="dropdown-item" href={"/#"}>
+                        <a
+                          onClick={clearLogin}
+                          className="dropdown-item"
+                          href={"/#"}
+                        >
                           Logout
                         </a>
                       </li>

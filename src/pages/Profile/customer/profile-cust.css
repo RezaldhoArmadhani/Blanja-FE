@@ -1,0 +1,40 @@
+.__col-left {
+  height: 100vh;
+}
+.__col-right {
+  background-color: rgb(238, 238, 238);
+}
+.__row-main {
+  max-height: 100vh;
+  margin-top: 75px !important;
+}
+
+/* MyAccount */
+
+.__myaccount {
+  height: 530px;
+  width: 90%;
+  margin-bottom: 100px;
+}
+
+.__img-profile {
+  height: 60px;
+  width: 60px;
+  border-radius: 100%;
+  object-fit: cover;
+}
+
+@media only screen and (max-width: 767px) {
+  .__img-profile {
+    width: 30px;
+    height: 30px;
+  }
+  .__col-left {
+    height: 70px;
+    background-color: aliceblue;
+  }
+  .__myaccount {
+    height: 1000px !important;
+    width: 90%;
+  }
+}

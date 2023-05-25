@@ -7,7 +7,7 @@ const ImageGrid = () => {
         <div class="col-xxl-12 col-lg-12 col-md-12 col-sm-12 col-12">
           <img
             class="img-thumbnail img-fluid"
-            src={require("../../../assets/img/product/one.png")}
+            src={require("../../../assets/img/product/jeans.jpg")}
             alt=""
           />
         </div>
@@ -16,28 +16,28 @@ const ImageGrid = () => {
         <div class="col-xxl-3 col-lg-3 col-md-3 col-sm-3 col-3">
           <img
             class="img-thumbnail img-fluid"
-            src={require("../../../assets/img/product/one.png")}
+            src={require("../../../assets/img/product/jeans.jpg")}
             alt=""
           />
         </div>
         <div class="col-xxl-3 col-lg-3 col-md-3 col-sm-3 col-3">
           <img
             class="img-thumbnail img-fluid"
-            src={require("../../../assets/img/product/one.png")}
+            src={require("../../../assets/img/product/jeans.jpg")}
             alt=""
           />
         </div>
         <div class="col-xxl-3 col-lg-3 col-md-3 col-sm-3 col-3">
           <img
             class="img-thumbnail img-fluid"
-            src={require("../../../assets/img/product/one.png")}
+            src={require("../../../assets/img/product/jeans.jpg")}
             alt=""
           />
         </div>
         <div class="col-xxl-3 col-lg-3 col-md-3 col-sm-3 col-3 mb-2">
           <img
             class="img-thumbnail img-fluid"
-            src={require("../../../assets/img/product/one.png")}
+            src={require("../../../assets/img/product/jeans.jpg")}
             alt=""
           />
         </div>

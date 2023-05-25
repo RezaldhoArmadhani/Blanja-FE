@@ -31,7 +31,11 @@ const NewProduct = () => {
             <div class="col-lg-3 col-md-6 col-sm-6 col-12 mb-4">
               <Link to={`/product/${item.id_product}`}>
                 <div class="card">
-                  <img src={item.photo} alt="" />
+                  <img
+                    src={item.photo}
+                    alt=""
+                    style={{ height: "300px", objectFit: "cover" }}
+                  />
                   <div class="card-body">
                     <p>{item.name}</p>
                     <p class="price">

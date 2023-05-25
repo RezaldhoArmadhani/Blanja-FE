@@ -10,6 +10,8 @@ import { FormatRupiah } from "@arismun/format-rupiah";
 import DeleteProduct from "../../../components/Modal/DeleteProduct";
 import { useDispatch } from "react-redux";
 import { getProduct } from "../../../redux/action/productAction";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faLocationDot, faUser } from "@fortawesome/free-solid-svg-icons";
 
 const MyOrder = () => {
   const [product, setProducts] = useState([]);
@@ -60,7 +62,28 @@ const MyOrder = () => {
             </div>
           </div>
           <ul className="menus">
-            <li className="nav-item">
+            <li className="nav-item pt-md-2 pt-0">
+              <FontAwesomeIcon
+                icon={faUser}
+                //   className="bg-danger p-2 rounded-circle"
+                style={{ height: "13px", width: "13px", color: "blue" }}
+              ></FontAwesomeIcon>
+              <span className="ps-2" style={{ color: "blue" }}>
+                My Account
+              </span>
+            </li>
+            <li className="nav-item pt-md-2 pt-0">
+              <FontAwesomeIcon
+                icon={faLocationDot}
+                //   className="bg-primary p-2 rounded-circle"
+                style={{ height: "13px", width: "13px", color: "blue" }}
+              ></FontAwesomeIcon>
+              <span className="ps-2" style={{ color: "blue" }}>
+                Shipping Address
+              </span>
+            </li>
+
+            {/* <li className="nav-item">
               <a
                 className="nav-link dropdown-toggle"
                 href="#"
@@ -222,7 +245,7 @@ const MyOrder = () => {
                   </a>
                 </li>
               </ul>
-            </li>
+            </li> */}
           </ul>
         </aside>
         <div className="content">

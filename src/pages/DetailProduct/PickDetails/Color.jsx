@@ -4,7 +4,7 @@ const Color = () => {
   return (
     <>
       <p>color</p>
-      <div style={{ display: "flex"}} class="pick-color">
+      <div style={{ display: "flex" }} class="pick-color">
         <input
           type="radio"
           class="btn-check"
@@ -13,7 +13,13 @@ const Color = () => {
           autocomplete="off"
         />
         <label
-          style={{width: "30px" , height: "30px" , borderRadius: "100%" , marginRight: "10px" , border: "none"}}
+          style={{
+            width: "30px",
+            height: "30px",
+            borderRadius: "100%",
+            marginRight: "10px",
+            border: "none",
+          }}
           class="btn btn-danger"
           for="option1"
         ></label>
@@ -25,8 +31,14 @@ const Color = () => {
           autocomplete="off"
         />
         <label
-          style={{width: "30px" , height: "30px" , borderRadius: "100%" , marginRight: "10px" , border: "none"}}
-          class="btn btn-warning"
+          style={{
+            width: "30px",
+            height: "30px",
+            borderRadius: "100%",
+            marginRight: "10px",
+            border: "none",
+          }}
+          class="btn btn-secondary"
           for="option2"
         ></label>
         <input
@@ -37,7 +49,13 @@ const Color = () => {
           autocomplete="off"
         />
         <label
-          style={{ width: "30px" , height: "30px" , borderRadius: "100%" , marginRight: "10px" , border: "none" }}
+          style={{
+            width: "30px",
+            height: "30px",
+            borderRadius: "100%",
+            marginRight: "10px",
+            border: "none",
+          }}
           class="btn btn-primary"
           for="option3"
         ></label>
@@ -49,7 +67,13 @@ const Color = () => {
           autocomplete="off"
         />
         <label
-          style={{ width: "30px" , height: "30px" , borderRadius: "100%" , marginRight: "10px" , border: "none" }}
+          style={{
+            width: "30px",
+            height: "30px",
+            borderRadius: "100%",
+            marginRight: "10px",
+            border: "none",
+          }}
           class="btn btn-success"
           for="option4"
         ></label>
