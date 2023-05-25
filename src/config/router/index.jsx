@@ -10,8 +10,8 @@ import Checkout from "../../pages/Checkout/Checkout";
 import Test from "../../pages/Test";
 // import CreateProduct from "../../components/Modal/CreateProduct";
 // import UpdateProduct from "../../components/Modal/UpdateProduct";
-import MyProfile from "../../pages/Profile/customer/index";
-import MyOrder from "../../pages/Profile/seller/MyOrder";
+import MyProfile from "../../pages/Profile/Customer/index";
+import MyOrder from "../../pages/Profile/Seller/MyOrder";
 
 const Router = () => {
   return (
