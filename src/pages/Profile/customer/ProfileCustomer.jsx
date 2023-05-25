@@ -2,8 +2,7 @@ import React, { useState } from "react";
 import Layout from "../../../components/BaseLayout/Layout";
 import "./profile-cust.css";
 import { Link } from "react-router-dom";
-import MyAccount from "./my-account";
-import Test2 from "./test2";
+import MyAccount from "./MyAccount";
 import profile from "../../../assets/img/profile/profile.png";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
