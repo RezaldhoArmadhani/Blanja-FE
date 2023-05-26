@@ -8,7 +8,7 @@
     <br />
     <a href="https://blanja-fe-eight.vercel.app/">View Demo</a>
     <br />
-    <a href="blanja-be-production.up.railway.app">API Demo</a>
+    <a href="https://blanja-be-production.up.railway.app">API Demo</a>
   </p>
 </p>
 
