@@ -97,29 +97,29 @@ REACT_APP_ENDPOINT = [BACKEND_URL]
   </tr>
 
   <tr>
-<!--     <td><img width="350px" src="./doc/Home.png"  border="0" border="0" alt="3" /> </td> -->
+    <td><img width="350px" src="./doc/Landing Page.png"  border="0" border="0" alt="3" /> </td>
      <td><img width="350px" src="./doc/Detail Product.png"  border="0" border="0" alt="4" /></td>
   </tr>
    <tr>
-<!--     <td>Landing</td> -->
+    <td>Landing</td>
     <td>Detail</td>
   </tr>
   <tr>
-<!--     <td><img width="350px" src="./doc/Profile Seller.png"  border="0" border="0" alt="3" /> </td> -->
-<!--     <td><img width="350px" src="./doc/profile-customer.png"  border="0" border="0" alt="4" /></td> -->
+    <td><img width="350px" src="./doc/Profile Seller.png"  border="0" border="0" alt="3" /> </td>
+    <td><img width="350px" src="./doc/Profile Customer.png"  border="0" border="0" alt="4" /></td>
   </tr>
    <tr>
-<!--     <td>Profile Seller</td> -->
-<!--     <td>Profile Customer</td> -->
+    <td>Profile Seller</td>
+    <td>Profile Customer</td>
   </tr>
-<!--    <tr> -->
-<!--     <td><img width="350px" src="./doc/mybag.png"  border="0" border="0" alt="3" /> </td> -->
+   <tr>
+    <td><img width="350px" src="./doc/My Bag.png"  border="0" border="0" alt="3" /> </td>
 <!--     <td><img width="350px" src="./doc/checkout.png"  border="0" border="0" alt="4" /></td> -->
-<!--   </tr> -->
-<!--    <tr> -->
-<!--     <td>Mybag</td> -->
+  </tr>
+   <tr>
+    <td>My Bag</td>
 <!--     <td>Checkout</td> -->
-<!--   </tr> -->
+  </tr>
    <tr>
 <!--     <td><img width="350px" src="./doc/address.png"  border="0" border="0" alt="3" /> </td> -->
     <td><img width="350px" src="./doc/Add Product.png"  border="0" border="0" alt="4" /></td>
