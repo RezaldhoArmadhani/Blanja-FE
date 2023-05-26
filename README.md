@@ -121,18 +121,12 @@ REACT_APP_ENDPOINT = [BACKEND_URL]
     <td>Add Product</td>
   </tr>
    <tr>
-    <td><img width="350px" src="./doc/Add Product.png"  border="0" border="0" alt="4" /></td>
      <td><img width="350px" src="./doc/Update Product.png"  border="0" border="0" alt="4" /></td>
+      <td><img width="350px" src="./doc/Delete Product.png"  border="0" border="0" alt="4" /></td>
   </tr>
    <tr>
-    <td>Add Product</td>
     <td>Update Product</td>
-  </tr>
-  <tr>
-     <td><img width="350px" src="./doc/Delete Product.png"  border="0" border="0" alt="4" /></td>
-  </tr>
-   <tr>
-    <td>Delete Product</td>
+     <td>Delete Product</td>
   </tr>
 </table>
 <!-- CONTRIBUTING -->
