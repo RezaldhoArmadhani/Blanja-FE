@@ -4,7 +4,7 @@
 </div>
   <h3 align="center">Blanja App</h3>
   <p align="center">
-    <a href="https://RezaldhoArmadhani/Blanja-FE"><strong>Explore the docs »</strong></a>
+    <a href="https://github.com/RezaldhoArmadhani/Blanja-FE"><strong>Explore the docs »</strong></a>
     <br />
     <a href="https://blanja-fe-eight.vercel.app/">View Demo</a>
     <br />
