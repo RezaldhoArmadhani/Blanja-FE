@@ -97,19 +97,19 @@ REACT_APP_ENDPOINT = [BACKEND_URL]
   </tr>
 
   <tr>
-    <td><img width="350px" src="./doc/Home.png"  border="0" border="0" alt="3" /> </td>
+<!--     <td><img width="350px" src="./doc/Home.png"  border="0" border="0" alt="3" /> </td> -->
      <td><img width="350px" src="./doc/Detail Product.png"  border="0" border="0" alt="4" /></td>
   </tr>
    <tr>
-    <td>Landing</td>
+<!--     <td>Landing</td> -->
     <td>Detail</td>
   </tr>
   <tr>
-    <td><img width="350px" src="./doc/Profile Seller.png"  border="0" border="0" alt="3" /> </td>
+<!--     <td><img width="350px" src="./doc/Profile Seller.png"  border="0" border="0" alt="3" /> </td> -->
 <!--     <td><img width="350px" src="./doc/profile-customer.png"  border="0" border="0" alt="4" /></td> -->
   </tr>
    <tr>
-    <td>Profile Seller</td>
+<!--     <td>Profile Seller</td> -->
 <!--     <td>Profile Customer</td> -->
   </tr>
 <!--    <tr> -->
