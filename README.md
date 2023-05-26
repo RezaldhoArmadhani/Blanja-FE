@@ -6,9 +6,9 @@
   <p align="center">
     <a href="https://RezaldhoArmadhani/Blanja-FE"><strong>Explore the docs »</strong></a>
     <br />
-    <a href="">Belum Deploy</a>
+    <a href="https://blanja-fe-eight.vercel.app/">View Demo</a>
     <br />
-    <a href="">Belum Deploy</a>
+    <a href="blanja-be-production.up.railway.app">API Demo</a>
   </p>
 </p>
 
@@ -145,8 +145,8 @@ Contributions are what make the open source community such an amazing place to b
 
 :rocket: [`Backend Blanja`](https://github.com/RezaldhoArmadhani/Blanja-BE)
 
-:rocket: [`Frontend Blanja`](https://RezaldhoArmadhani/Blanja-FE)
+:rocket: [`Frontend Blanja`](https://github.com/RezaldhoArmadhani/Blanja-FE)
 
-:rocket: [`Belum Deploy`]
+:rocket: [`Demo Blanja`](https://blanja-fe-eight.vercel.app/)
 
 Project Link: [https://github.com/RezaldhoArmadhani/Blanja-FE](https://github.com/RezaldhoArmadhani/Blanja-FE)
