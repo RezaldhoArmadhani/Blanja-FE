@@ -98,7 +98,7 @@ REACT_APP_ENDPOINT = [BACKEND_URL]
 
   <tr>
     <td><img width="350px" src="./doc/Landing Page.png"  border="0" border="0" alt="3" /> </td>
-     <td><img width="350px" src="./doc/Detail Product.png"  border="0" border="0" alt="4" /></td>
+     <td><img width="350px" src="./doc/Detail.png"  border="0" border="0" alt="4" /></td>
   </tr>
    <tr>
     <td>Landing</td>
