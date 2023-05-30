@@ -62,7 +62,7 @@ git clone https://github.com/RezaldhoArmadhani/Blanja-FE
 - Go To Folder Repo
 
 ```
-cd ui
+cd Blanja-FE
 ```
 
 - Install Module
