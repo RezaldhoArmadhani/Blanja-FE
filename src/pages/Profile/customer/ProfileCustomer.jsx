@@ -4,6 +4,7 @@ import "./profile-cust.css";
 import { Link } from "react-router-dom";
 import MyAccount from "./MyAccount";
 import profile from "../../../assets/img/profile/profile.png";
+import Test2 from "./test2";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
   faLocation,

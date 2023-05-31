@@ -16,7 +16,7 @@ const Login = () => {
     try {
       const response = await axios.post(
         // `http://localhost:3003/seller/auth/login`,
-        `http://localhost:3003/customer/auth/login`,
+        `https://blanja-be-production.up.railway.app/customer/auth/login`,
         {
           email,
           password,

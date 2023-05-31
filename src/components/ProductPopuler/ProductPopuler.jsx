@@ -8,7 +8,7 @@ const ProductPopuler = () => {
   const [products, setProducts] = useState([]);
   useEffect(() => {
     axios
-      .get("http://localhost:3003/product")
+      .get("https://blanja-be-production.up.railway.app/product")
       .then(function (response) {
         console.log(response);
         setProducts(response.data.data);

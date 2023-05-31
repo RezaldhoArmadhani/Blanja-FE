@@ -9,7 +9,7 @@ const NewProduct = () => {
   const [products, setProducts] = useState([]);
   useEffect(() => {
     axios
-      .get(`http://localhost:3003/product`)
+      .get(`https://blanja-be-production.up.railway.app/product`)
       .then(function (response) {
         setProducts(response.data.data);
       })

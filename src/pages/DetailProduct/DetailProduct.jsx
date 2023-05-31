@@ -16,7 +16,7 @@ const DetailProduct = () => {
   const [products, setProducts] = useState([]);
   useEffect(() => {
     axios
-      .get(`http://localhost:3003/product/${id}`)
+      .get(`https://blanja-be-production.up.railway.app/product/${id}`)
       .then(function (response) {
         setProducts(response.data.data);
       })
@@ -36,7 +36,7 @@ const DetailProduct = () => {
             </div>
             <div className="details col-xxl-7 col-xl-7 col-lg-7 col-md-6 col-sm-12 py-xxl-0 py-lg-0 py-md-0 py-5">
               <h4>{products[0]?.name}</h4>
-              <p>Nike</p>
+              <p>Zalora Cloth</p>
               <div className="rating"></div>
               <p className="price">Price</p>
               <h4 className="money">Rp. {products[0]?.price}</h4>
@@ -104,33 +104,33 @@ const DetailProduct = () => {
                     </span>
                   </p>
                   <div class="review-stars">
-                    <img src="../assets/img/icon/Star.png" alt="" />
-                    <img src="../assets/img/icon/Star.png" alt="" />
-                    <img src="../assets/img/icon/Star.png" alt="" />
-                    <img src="../assets/img/icon/Star.png" alt="" />
-                    <img src="../assets/img/icon/Star.png" alt="" />
+                    <img src="../../assets/img/icon/Star.png" alt="" />
+                    <img src="../../assets/img/icon/Star.png" alt="" />
+                    <img src="../../assets/img/icon/Star.png" alt="" />
+                    <img src="../../assets/img/icon/Star.png" alt="" />
+                    <img src="../../assets/img/icon/Star.png" alt="" />
                   </div>
                 </div>
                 <div class="rate-detail">
                   <div class="rate-stars">
                     <div>
-                      <img src="../assets/img/icon/Star.png" alt="" />
+                      <img src="../../assets/img/icon/Star.png" alt="" />
                       <span>5</span>
                     </div>
                     <div>
-                      <img src="../assets/img/icon/Star.png" alt="" />
+                      <img src="../../assets/img/icon/Star.png" alt="" />
                       <span>4</span>
                     </div>
                     <div>
-                      <img src="../assets/img/icon/Star.png" alt="" />
+                      <img src="../../assets/img/icon/Star.png" alt="" />
                       <span>3</span>
                     </div>
                     <div>
-                      <img src="../assets/img/icon/Star.png" alt="" />
+                      <img src="../../assets/img/icon/Star.png" alt="" />
                       <span>2</span>
                     </div>
                     <div>
-                      <img src="../assets/img/icon/Star.png" alt="" />
+                      <img src="../../assets/img/icon/Star.png" alt="" />
                       <span>1</span>
                     </div>
                   </div>

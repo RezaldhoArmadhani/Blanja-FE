@@ -8,7 +8,6 @@ import NavbarLogin from "../components/NavbarLogin/NavbarLogin";
 
 const Home = () => {
   const isLogin = localStorage.getItem("token");
-  // Navbar belum bisa switch antara isLogin dan !isLogin
   if (!isLogin) {
     return (
       <>

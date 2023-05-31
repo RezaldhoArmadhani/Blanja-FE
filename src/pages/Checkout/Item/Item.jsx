@@ -1,4 +1,6 @@
 import React from "react";
+import Celana from "../../../assets/img/product/jeans.jpg";
+import Kaos from "../../../assets/img/product/kaos.jpg";
 
 const Item = () => {
   return (
@@ -8,20 +10,20 @@ const Item = () => {
           <div className="col-8 col-xxl-8 col-xl-8 col-lg-8 col-md-8 col-sm-8 d-flex align-items-center">
             <div style={{ padding: "12px" }}>
               <img
-                style={{ borderRadius: "10px" }}
-                src={require("../../../assets/img/mybag/satu.png")}
+                style={{ borderRadius: "10px", height: "80px", width: "80px" }}
+                src={Celana}
                 alt=""
               />
             </div>
             <div className="name">
-              Men's formal suit - Black
+              Celana Jeans
               <br />
               <span style={{ fontSize: "13px", color: "gray" }}>
                 Zalora Cloth
               </span>
             </div>
           </div>
-          <div className="col-1 col-xxl-1 col-xl-1 col-lg-1 col-md-1 col-sm-1  ms-auto text-end">
+          <div className="col-1 col-sm-2 ms-auto text-end">
             <h5
               style={{
                 color: "black",
@@ -29,7 +31,7 @@ const Item = () => {
                 paddingRight: "10px",
               }}
             >
-              $ 20.0
+              Rp. 70.000
             </h5>
           </div>
         </div>
@@ -39,20 +41,25 @@ const Item = () => {
           <div className="col-8 col-xxl-8 col-xl-8 col-lg-8 col-md-8 col-sm-8 d-flex align-items-center">
             <div style={{ padding: "12px" }}>
               <img
-                style={{ borderRadius: "10px" }}
-                src={require("../../../assets/img/mybag/satu.png")}
+                style={{
+                  borderRadius: "10px",
+                  height: "80px",
+                  width: "80px",
+                  objectFit: "cover",
+                }}
+                src={Kaos}
                 alt=""
               />
             </div>
             <div className="name">
-              Men's formal suit - Black
+              Kaos Oblong
               <br />
               <span style={{ fontSize: "13px", color: "gray" }}>
                 Zalora Cloth
               </span>
             </div>
           </div>
-          <div className="col-1 col-xxl-1 col-xl-1 col-lg-1 col-md-1 col-sm-1  ms-auto text-end">
+          <div className="col-1 col-sm-2 ms-auto text-end">
             <h5
               style={{
                 color: "black",
@@ -60,7 +67,7 @@ const Item = () => {
                 paddingRight: "10px",
               }}
             >
-              $ 20.0
+              Rp. 65.000
             </h5>
           </div>
         </div>
