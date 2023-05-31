@@ -8,10 +8,10 @@ import Mybag from "../../pages/Mybag/Mybag";
 import ForgotPassword from "../../pages/Auth/ForgotPassword/ResetPassword";
 import Checkout from "../../pages/Checkout/Checkout";
 import Test from "../../pages/Test";
+import ProfileCustomer from "../../pages/Profile/Customer/customer";
 // import CreateProduct from "../../components/Modal/CreateProduct";
 // import UpdateProduct from "../../components/Modal/UpdateProduct";
 import MyOrder from "../../pages/Profile/Seller/MyOrder";
-import ProfileCustomer from "../../pages/Profile/Customer/customer";
 
 const Router = () => {
   return (
