@@ -17,7 +17,7 @@ import {
   faUser,
 } from "@fortawesome/free-solid-svg-icons";
 
-const ProfileCustomer = () => {
+const Customer = () => {
   const [link, setLink] = useState("link1");
   console.log(link);
 
@@ -82,4 +82,4 @@ const ProfileCustomer = () => {
   );
 };
 
-export default ProfileCustomer;
+export default Customer;
