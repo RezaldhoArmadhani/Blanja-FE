@@ -11,7 +11,7 @@ import Test from "../../pages/Test";
 // import CreateProduct from "../../components/Modal/CreateProduct";
 // import UpdateProduct from "../../components/Modal/UpdateProduct";
 import MyOrder from "../../pages/Profile/Seller/MyOrder";
-import MyUser from "../../pages/Profile/Customer/MyUser";
+import MyUser from "../../pages/Profile/Customer/user";
 
 const Router = () => {
   return (
