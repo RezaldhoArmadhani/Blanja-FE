@@ -11,7 +11,7 @@ import Test from "../../pages/Test";
 // import CreateProduct from "../../components/Modal/CreateProduct";
 // import UpdateProduct from "../../components/Modal/UpdateProduct";
 import MyOrder from "../../pages/Profile/Seller/MyOrder";
-import MyUser from "../../pages/Profile/Customer/user";
+import ProfileCustomer from "../../pages/Profile/Customer/customer";
 
 const Router = () => {
   return (
@@ -29,7 +29,7 @@ const Router = () => {
           {/* <Route path="/CreateProduct" element={<CreateProduct />}></Route>
           <Route path="/UpdateProduct" element={<UpdateProduct />}></Route> */}
           <Route path="/MyCatalogue" element={<MyOrder />}></Route>
-          <Route path="/MyProfile" element={<MyUser />}></Route>
+          <Route path="/MyProfile" element={<ProfileCustomer />}></Route>
         </Routes>
       </BrowserRouter>
     </div>
