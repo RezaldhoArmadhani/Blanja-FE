@@ -54,7 +54,7 @@ const Login = () => {
     e.preventDefault();
     try {
       const response = await axios.post(
-        `http://localhost:3003/seller/auth/login`,
+        `https://blanja-be-production.up.railway.app/seller/auth/login`,
         // `http://localhost:3003/customer/auth/login`,
         {
           email,
