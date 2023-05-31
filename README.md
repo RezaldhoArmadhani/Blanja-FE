@@ -4,11 +4,11 @@
 </div>
   <h3 align="center">Blanja App</h3>
   <p align="center">
-    <a href="https://RezaldhoArmadhani/Blanja-FE"><strong>Explore the docs »</strong></a>
+    <a href="https://github.com/RezaldhoArmadhani/Blanja-FE"><strong>Explore the docs »</strong></a>
     <br />
-    <a href="">Belum Deploy</a>
+    <a href="https://blanja-fe-eight.vercel.app/">View Demo</a>
     <br />
-    <a href="">Belum Deploy</a>
+    <a href="https://blanja-be-production.up.railway.app">API Demo</a>
   </p>
 </p>
 
@@ -32,11 +32,11 @@
 
 ## About The Project
 
-Blanja adalah proyek website E-commerce yang bertujuan untuk memberikan pengalaman belanja online yang mudah dan nyaman bagi pengguna di Indonesia. Situs ini menawarkan berbagai macam produk, termasuk fashion, kecantikan, elektronik, serta makanan dan minuman.
+Blanja is an E-commerce website project that aims to provide an easy and convenient online shopping experience for users in Indonesia. The site offers a wide variety of products, including fashion, beauty, electronics, and food and beverages.
 
-Untuk menggunakan layanan Blanja, pengguna hanya perlu membuat akun dan memasukkan detail pembayaran. Setelah itu, pengguna dapat menelusuri produk, menambahkannya ke keranjang belanja, dan memilih metode pembayaran yang diinginkan.
+To use the Blanja service, users only need to create an account and log in with the account that was created. After that, the user can browse the product, add it to the shopping cart, and select the desired payment method.
 
-Dengan segala fitur dan keamanan yang diberikan, Blanja diharapkan dapat memberikan pengalaman belanja online yang aman, mudah, dan nyaman bagi pengguna di seluruh Indonesia.
+With all the features and security provided, Blanja is expected to provide a safe, easy and comfortable online shopping experience for users throughout Indonesia.
 
 <!-- GETTING STARTED -->
 
@@ -62,7 +62,7 @@ git clone https://github.com/RezaldhoArmadhani/Blanja-FE
 - Go To Folder Repo
 
 ```
-cd ui
+cd Blanja-FE
 ```
 
 - Install Module
@@ -97,8 +97,8 @@ REACT_APP_ENDPOINT = [BACKEND_URL]
   </tr>
 
   <tr>
-    <td><img width="350px" src="./doc/Home.png"  border="0" border="0" alt="3" /> </td>
-     <td><img width="350px" src="./doc/Detail Product.png"  border="0" border="0" alt="4" /></td>
+    <td><img width="350px" src="./doc/Landing Page.png"  border="0" border="0" alt="3" /> </td>
+     <td><img width="350px" src="./doc/Detail.png"  border="0" border="0" alt="4" /></td>
   </tr>
    <tr>
     <td>Landing</td>
@@ -106,34 +106,32 @@ REACT_APP_ENDPOINT = [BACKEND_URL]
   </tr>
   <tr>
     <td><img width="350px" src="./doc/Profile Seller.png"  border="0" border="0" alt="3" /> </td>
-<!--     <td><img width="350px" src="./doc/profile-customer.png"  border="0" border="0" alt="4" /></td> -->
+    <td><img width="350px" src="./doc/Profil Customer.png"  border="0" border="0" alt="4" /></td>
   </tr>
    <tr>
     <td>Profile Seller</td>
-<!--     <td>Profile Customer</td> -->
-  </tr>
-<!--    <tr> -->
-<!--     <td><img width="350px" src="./doc/mybag.png"  border="0" border="0" alt="3" /> </td> -->
-<!--     <td><img width="350px" src="./doc/checkout.png"  border="0" border="0" alt="4" /></td> -->
-<!--   </tr> -->
-<!--    <tr> -->
-<!--     <td>Mybag</td> -->
-<!--     <td>Checkout</td> -->
-<!--   </tr> -->
-   <tr>
-<!--     <td><img width="350px" src="./doc/address.png"  border="0" border="0" alt="3" /> </td> -->
-    <td><img width="350px" src="./doc/Add Product.png"  border="0" border="0" alt="4" /></td>
+    <td>Profile Customer</td>
   </tr>
    <tr>
-<!--     <td>Address</td> -->
+    <td><img width="350px" src="./doc/My Bag.png"  border="0" border="0" alt="3" /> </td>
+    <td><img width="350px" src="./doc/Checkout.png"  border="0" border="0" alt="4" /></td>
+  </tr>
+   <tr>
+    <td>My Bag</td>
+    <td>Checkout</td>
+  </tr>
+   <tr>
+     <td><img width="350px" src="./doc/Add Product.png"  border="0" border="0" alt="4" /></td>
+      <td><img width="350px" src="./doc/Update Product.png"  border="0" border="0" alt="4" /></td>
+  </tr>
+   <tr>
     <td>Add Product</td>
+     <td>Update Product</td>
   </tr>
   <tr>
-    <td><img width="350px" src="./doc/Update Product.png"  border="0" border="0" alt="4" /></td>
      <td><img width="350px" src="./doc/Delete Product.png"  border="0" border="0" alt="4" /></td>
   </tr>
    <tr>
-    <td>Update Product</td>
     <td>Delete Product</td>
   </tr>
 </table>
@@ -153,8 +151,8 @@ Contributions are what make the open source community such an amazing place to b
 
 :rocket: [`Backend Blanja`](https://github.com/RezaldhoArmadhani/Blanja-BE)
 
-:rocket: [`Frontend Blanja`](https://RezaldhoArmadhani/Blanja-FE)
+:rocket: [`Frontend Blanja`](https://github.com/RezaldhoArmadhani/Blanja-FE)
 
-:rocket: [`Belum Deploy`]
+:rocket: [`Demo Blanja`](https://blanja-fe-eight.vercel.app/)
 
 Project Link: [https://github.com/RezaldhoArmadhani/Blanja-FE](https://github.com/RezaldhoArmadhani/Blanja-FE)
